@@ -1,17 +1,30 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+
     <router-view/>
+    <syheader/>
+
   </div>
 </template>
 
 <script>
+import syheader from './components/syheader'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    syheader
+  },
+  data() {
+    return {};
+  },
+  methods: {
+    btn() { }
+  }
 }
 </script>
 
-<style>
+<style lang="css">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
