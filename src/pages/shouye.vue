@@ -1,6 +1,8 @@
 <template>
   <div class="box">
-    <syheader></syheader>
+    <header>
+      
+    </header>
   </div>
 </template>
 
