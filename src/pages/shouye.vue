@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <syheader title="首页" />
+  <div class="box">
+    <syheader></syheader>
   </div>
 </template>
 
 <script>
-import syheader from "../components/syheader.vue";
+import syheader from "@/components/syheader.vue";
 
 export default {
   name: "shouye",
   components: {
-    syheader,
+    syheader
   }
 };
 </script>
 
-<style lang="scss">
+<style>
 
 </style>
