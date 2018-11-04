@@ -8,7 +8,13 @@
 
 
 export default {
-  name: 'App'
+  name: 'App',
+  data() {
+    return {}
+  },
+  methods: {
+    btn() { }
+  }
 }
 </script>
 
