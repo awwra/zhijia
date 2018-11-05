@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/pages/shouye'
-import bottom from '@/components/bottom'
+import shangpinliebiao from '@/pages/shangpinliebiao'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component:index
     },
     {
-      path:"/bottom",
-      name:'bottom',
-      component:bottom
-    }
+      path:"/shangpinliebiao",
+      name:'shangpinliebiao',
+      component:shangpinliebiao
+    },
 ]
 })
