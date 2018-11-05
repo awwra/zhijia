@@ -80,15 +80,17 @@
         <h3>&gt;</h3>
       </div>
     </div>
+    <bottom></bottom>
 </div>
     
 </template>
 
 <script>
+import bottom from '@/components/bottom.vue'
 export default {
   name: "wode",
-  data: {
-    return: {}
+  components: {
+    bottom
   }
 };
 </script>
@@ -264,6 +266,7 @@ export default {
     height: px2rem(558);
     width: 94%;
     margin: auto auto;
+    margin-bottom: px2rem(200);
     div {
       display: flex;
       justify-content:space-between;

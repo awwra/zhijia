@@ -62,12 +62,17 @@
             </dl>
           </div>
         </div>
+  <bottom></bottom>
     </div>
 </template>
 
 <script>
+import bottom from '@/components/bottom.vue'
 export default {
-  name: "shangpinliebiao"
+  name: "shangpinliebiao",
+  components:{
+    bottom
+  }
 };
 </script>
 
