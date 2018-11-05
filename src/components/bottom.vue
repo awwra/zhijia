@@ -23,7 +23,7 @@
 
 <script>
 export default {
-    name: 'bottom'
+    name: 'bottom',
 }
 </script>
 
@@ -39,7 +39,6 @@ export default {
     width: 100%;
     border-top: px2rem(2) solid #ccc;
     background: #fff;
-    margin-top: 10000px;
     display: flex;
     dl {
         text-align: center;
