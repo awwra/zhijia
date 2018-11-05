@@ -57,7 +57,128 @@
         </dl>
       </div>
     </div>
-
+    <div class="tit">
+      <h2>运营商套餐</h2>
+      <span></span>
+    </div>
+    <div class="yys">
+      <div class="yys1">
+        <dl>
+          <dt><img src="../assets/shouye-12.png" alt=""></dt>
+          <dd>
+            <h5>苹果 iPhone 7</h5>
+            <p>32GB 金色4G全网通</p>
+          </dd>
+        </dl>
+      </div>
+      <div class="yys1">
+        <dl>
+          <dt><img src="../assets/shouye-12.png" alt=""></dt>
+          <dd>
+            <h5>苹果 iPhone 7</h5>
+            <p>32GB 金色4G全网通</p>
+          </dd>
+        </dl>
+      </div>
+      <div class="yys1">
+        <dl>
+          <dt><img src="../assets/shouye-12.png" alt=""></dt>
+          <dd>
+            <h5>苹果 iPhone 7</h5>
+            <p>32GB 金色4G全网通</p>
+          </dd>
+        </dl>
+      </div>
+      <div class="yys1">
+        <dl>
+          <dt><img src="../assets/shouye-12.png" alt=""></dt>
+          <dd>
+            <h5>苹果 iPhone 7</h5>
+            <p>32GB 金色4G全网通</p>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="tit">
+      <h2>热销商品</h2>
+      <span></span>
+    </div>
+    <div class="lists">
+      <div class="list">
+        <dl>
+          <dt><img src="../assets/shouye-10.png" alt=""></dt>
+          <dd>
+            <p>荣耀畅玩6X铂光金标版3+32G全网通原装</p>
+            <h5>￥7288</h5>
+          </dd>
+        </dl>
+      </div>
+      <div class="list">
+        <dl>
+          <dt><img src="../assets/shouye-11.png" alt=""></dt>
+          <dd>
+            <p>荣耀畅玩6X铂光金标版3+32G全网通原装</p>
+            <h5>￥7288</h5>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="lists">
+      <div class="list">
+        <dl>
+          <dt><img src="../assets/shouye-10.png" alt=""></dt>
+          <dd>
+            <p>荣耀畅玩6X铂光金标版3+32G全网通原装</p>
+            <h5>￥7288</h5>
+          </dd>
+        </dl>
+      </div>
+      <div class="list">
+        <dl>
+          <dt><img src="../assets/shouye-11.png" alt=""></dt>
+          <dd>
+            <p>荣耀畅玩6X铂光金标版3+32G全网通原装</p>
+            <h5>￥7288</h5>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="imgs">
+      <img src="../assets/shouye-13.png" alt="">
+    </div>
+    <div class="tit">
+      <h2>门店头条</h2>
+      <span></span>
+    </div>
+    <div class="liebiao">
+      <div class="lb">
+        <dl>
+          <dt><img src="../assets/shouye-14.png" alt=""></dt>
+          <dd>
+            <p>牛津大学报告：人工智能的表现超过人类的几率为50%</p>
+            <span><img src="../assets/shouye-15.png" alt=""> 63<img src="../assets/shouye-16.png" class="yanjing" alt=""> 2968</span>
+          </dd>
+        </dl>
+      </div>
+      <div class="lb">
+        <dl>
+          <dt><img src="../assets/shouye-14.png" alt=""></dt>
+          <dd>
+            <p>牛津大学报告：人工智能的表现超过人类的几率为50%</p>
+            <span><img src="../assets/shouye-15.png" alt=""> 63<img src="../assets/shouye-16.png" class="yanjing" alt=""> 2968</span>
+          </dd>
+        </dl>
+      </div>
+      <div class="lb">
+        <dl>
+          <dt><img src="../assets/shouye-14.png" alt=""></dt>
+          <dd>
+            <p>牛津大学报告：人工智能的表现超过人类的几率为50%</p>
+            <span><img src="../assets/shouye-15.png" alt=""> 63<img src="../assets/shouye-16.png" class="yanjing" alt=""> 2968</span>
+          </dd>
+        </dl>
+      </div>
+    </div>
     <div class="bottom">
       <dl>
         <dt><img src="../assets/shouye-6.png" alt=""></dt>
@@ -109,6 +230,7 @@ header {
   display: flex;
   height: px2rem(127);
   background: #fff;
+  padding-top: px2rem(50);
   .left {
     width: 25%;
     text-align: center;
@@ -191,57 +313,157 @@ nav {
 .tit {
   height: px2rem(235);
   background: #fff;
-  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   h2 {
     font-size: px2rem(60);
-    text-align: center;
-    line-height: px2rem(235)
   }
   span {
-    position: absolute;
+    text-align: center;
     display: block;
     width: px2rem(104);
     height: px2rem(5);
-    top: px2rem(185);
     background: #cecece;
-    left: 50%;
-    margin-left: px2rem(-52);
+    margin-top: px2rem(20);
   }
 }
 
 .lists {
   background: #fff;
   display: flex;
+  padding-bottom: px2rem(100);
   .list {
     float: left;
     width: 45%;
     margin-left: 3%;
     height: px2rem(894);
     border: px2rem(2) solid #ccc;
-    dl{
-      dt{
-        
-        img{
-          margin: 0 auto;
+    dl {
+      dt {
+        margin: px2rem(50) auto;
+        width: px2rem(228);
+        height: px2rem(490);
+        img {
           width: 100%;
         }
       }
-      dd{
-
+      dd {
+        p {
+          font-size: px2rem(52);
+          margin-left: px2rem(40);
+          line-height: px2rem(80);
+        }
+        h5 {
+          font-size: px2rem(48);
+          color: #ff5a00;
+          margin-top: px2rem(40);
+          margin-left: px2rem(35);
+        }
       }
     }
   }
 }
 
+.yys {
+  background: #fff;
+  margin-bottom: px2rem(100);
+  .yys1 {
+    float: left;
+    width: 45%;
+    margin-left: 3%;
+    height: px2rem(300);
+    background: #dee5e7;
+    border: px2rem(2) solid #ccc;
+    margin-bottom: px2rem(30);
+    dl {
+      display: flex;
+      dt {
+        margin: px2rem(50) px2rem(35) px2rem(50) px2rem(60);
+        width: px2rem(107);
+        height: px2rem(202);
+        img {
+          width: 100%;
+        }
+      }
+      dd {
+        h5 {
+          font-size: px2rem(52);
+          margin-top: px2rem(80);
+        }
+        p {
+          font-size: px2rem(42);
+          margin-top: px2rem(35);
+          color: #666;
+        }
+      }
+    }
+  }
+}
+
+.imgs {
+  width: 100%;
+  margin: px2rem(25) 0;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.liebiao {
+  width: 100%;
+  background: #fff;
+  padding-bottom: px2rem(350);
+  .lb {
+    width: 94%;
+    margin-left: 3%;
+    margin-bottom: px2rem(60);
+    dl {
+      display: flex;
+      height: px2rem(332);
+      dt {
+        width: px2rem(390);
+        height: px2rem(390);
+        img {
+          width: 100%;
+        }
+      }
+      dd {
+        padding-left: px2rem(66);
+        border: px2rem(1) solid #ccc;
+        border-left: none;
+        p {
+          line-height: px2rem(75);
+          font-size: px2rem(50);
+          margin-top: px2rem(50);
+        }
+        span {
+          margin-bottom: -20px;
+          margin-top: px2rem(45);
+          display: inline-block;
+          color: #666;
+          img {
+            width: px2rem(45);
+            height: px2rem(39);
+          }
+          .yanjing {
+            margin-left: px2rem(50);
+          }
+        }
+      }
+    }
+  }
+}
 
 .bottom {
   height: px2rem(193);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   border-top: px2rem(2) solid #ccc;
   background: #fff;
-  margin-top: 10000px;
   display: flex;
   dl {
     text-align: center;
