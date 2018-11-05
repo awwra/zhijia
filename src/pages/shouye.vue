@@ -185,6 +185,7 @@
 
 <script>
 import bottom from '@/components/bottom.vue'
+
 export default {
   name: "shouye",
   data() {

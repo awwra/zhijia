@@ -10,10 +10,10 @@
                 <dt><img src="../assets/bottom-2.png" alt=""></dt>
                 <dd>商品列表</dd>
             </router-link>
-            <dl>
+            <router-link tag='dl' to='/gouwuche'>
                 <dt><img src="../assets/bottom-3.png" alt=""></dt>
                 <dd>购物车</dd>
-            </dl>
+            </router-link>
             <router-link tag='dl' to='/wode'>
                 <dt><img src="../assets/bottom-4.png" alt=""></dt>
                 <dd>我的</dd>

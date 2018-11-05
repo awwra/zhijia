@@ -3,32 +3,34 @@ import Router from 'vue-router'
 import index from '@/pages/shouye'
 import shangpinliebiao from '@/pages/shangpinliebiao'
 import wode from '@/pages/wode'
-import xiaoshouzhongxin from '@/pages/xiaoshouzhongxin'
-
-
+import bottom from '@/components/bottom'
+import gouwuche from '@/pages/gouwuche'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path:"/",
-      name:'index',
-      component:index
+  routes: [{
+      path: "/",
+      name: 'index',
+      component: index
     },
     {
-      path:"/shangpinliebiao",
-      name:'shangpinliebiao',
-      component:shangpinliebiao
+      path: "/gouwuche",
+      name: 'gouwuche',
+      component: gouwuche
     },
     {
-      path:"/wode",
-      name:'wode',
-      component:wode
+      path: "/shangpinliebiao",
+      name: 'shangpinliebiao',
+      component: shangpinliebiao
+    }, {
+      path: "/wode",
+      name: 'wode',
+      component: wode
     },
     {
-      path:"/xiaoshouzhongxin",
-      name:'xiaoshouzhongxin',
-      component:xiaoshouzhongxin
-    },
-]
+      path: "/bottom",
+      name: 'bottom',
+      component: bottom
+    }
+  ]
 })
