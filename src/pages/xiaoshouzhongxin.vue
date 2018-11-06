@@ -7,7 +7,7 @@
         </div>
         <div class="banner">
             <div class="sop">
-                <p>切换为买家</p>
+                <router-link tag='p' to='/wode'>切换为买家</router-link>
                 <p>今日销售额（元）</p>
             </div>
             <h1>0.00</h1>
@@ -59,11 +59,11 @@
 
 <script>
 import bottom from "@/components/bottom.vue"
-
+import wode from '@/pages/wode.vue'
 export default {
     name: "xiaoshouzhongxin",
     components: {
-        bottom
+        bottom, wode
     }
 }
 </script>
@@ -143,12 +143,25 @@ export default {
     }
 }
 
-.lists{
-    .list{
+.lists {
+    .list {
         display: flex;
-        dl{
-            flex: 1;
+        justify-content: center;
+        dl {
             height: px2rem(230);
+            margin-top: px2rem(240);
+            flex: 1;
+            dt {
+                height: px2rem(160);
+                width: px2rem(160);
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                text-align: center;
+            }
         }
     }
 }

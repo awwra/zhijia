@@ -5,6 +5,7 @@ import shangpinliebiao from '@/pages/shangpinliebiao'
 import wode from '@/pages/wode'
 import bottom from '@/components/bottom'
 import gouwuche from '@/pages/gouwuche'
+import xiaoshouzhongxin from "@/pages/xiaoshouzhongxin"
 Vue.use(Router)
 
 export default new Router({
@@ -22,7 +23,8 @@ export default new Router({
       path: "/shangpinliebiao",
       name: 'shangpinliebiao',
       component: shangpinliebiao
-    }, {
+    },
+    {
       path: "/wode",
       name: 'wode',
       component: wode
@@ -31,6 +33,11 @@ export default new Router({
       path: "/bottom",
       name: 'bottom',
       component: bottom
-    }
+    },
+    {
+      path: "/xiaoshouzhongxin",
+      name: 'xiaoshouzhongxin',
+      component: xiaoshouzhongxin
+    },
   ]
 })
