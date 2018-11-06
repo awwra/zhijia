@@ -2,7 +2,7 @@
     <div class="box">
         <div class="top">
             <p class="topo">&lt;返回</p>
-            <p class="topt">个人中心</p>
+            <p class="topt">销售中心</p>
             <img src="@/assets/wode1.jpg" alt="">
         </div>
         <div class="banner">
@@ -144,6 +144,7 @@ export default {
 }
 
 .lists {
+    background: #Fff;
     .list {
         display: flex;
         justify-content: center;

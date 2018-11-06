@@ -294,6 +294,9 @@ nav {
       font-size: px2rem(55);
       line-height: px2rem(75);
       margin-top: px2rem(75);
+      a{
+        color: #fd8d32;
+      }
     }
   }
 }
