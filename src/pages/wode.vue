@@ -71,10 +71,10 @@
         <p>收货地址</p>
         <h3>&gt;</h3>
       </div>
-      <div>
+      <router-link tag='div' to='/gwc'>
         <p>我的购物车（3）</p>
         <h3>&gt;</h3>
-      </div>
+      </router-link>
       <div>
         <p>我的电子券</p>
         <h3>&gt;</h3>
@@ -88,10 +88,12 @@
 <script>
 import bottom from '@/components/bottom.vue'
 import xiaoshouzhongxin from '@/pages/xiaoshouzhongxin.vue'
+import gwc from "@/pages/gwc.vue"
+
 export default {
   name: "wode",
   components: {
-    bottom, xiaoshouzhongxin
+    bottom, xiaoshouzhongxin, gwc
   }
 };
 </script>
@@ -129,6 +131,7 @@ export default {
       display: flex;
       justify-content: space-between;
       padding-top: px2rem(66);
+      font-size: px2rem(50);
       p:nth-child(1) {
         color: #c78384;
         line-height: px2rem(76);
