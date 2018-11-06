@@ -12,7 +12,7 @@
             <p>很抱歉,暂无相关商品！</p>
             <div class="btn">
                 <button>现在就去</button>
-                <button>人人中心</button>
+                <button>个人中心</button>
             </div>
         </div>
         <bottom></bottom>

@@ -6,6 +6,7 @@ import wode from '@/pages/wode'
 import bottom from '@/components/bottom'
 import gouwuche from '@/pages/gouwuche'
 import xiaoshouzhongxin from "@/pages/xiaoshouzhongxin"
+import gerenxinxi from "@/pages/gerenxinxi"
 Vue.use(Router)
 
 export default new Router({
@@ -13,6 +14,11 @@ export default new Router({
       path: "/",
       name: 'index',
       component: index
+    },
+    {
+      path: "/gerenxinxi",
+      name: 'gerenxinxi',
+      component: gerenxinxi
     },
     {
       path: "/gouwuche",
