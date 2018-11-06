@@ -23,11 +23,11 @@
             </div>
         </div>
         <div class="lists">
-            <div class="list">
-                <dl>
+            <div class="ewm">
+                <router-link tag='dl' to='/erweima'>
                     <dt><img src="../assets/xszx-1.png" alt=""></dt>
                     <dd>我的二维码</dd>
-                </dl>
+                </router-link>
                 <dl>
                     <dt><img src="../assets/xszx-2.png" alt=""></dt>
                     <dd>客户列表</dd>
@@ -37,7 +37,7 @@
                     <dd>客户订单</dd>
                 </dl>
             </div>
-            <div class="list">
+            <div class="ewm">
                 <dl>
                     <dt><img src="../assets/xszx-4.png" alt=""></dt>
                     <dd>金币活动</dd>
@@ -60,10 +60,12 @@
 <script>
 import bottom from "@/components/bottom.vue"
 import wode from '@/pages/wode.vue'
+import erweima from "@/pages/erweima.vue"
+
 export default {
     name: "xiaoshouzhongxin",
     components: {
-        bottom, wode
+        bottom, wode, erweima 
     }
 }
 </script>
@@ -145,7 +147,7 @@ export default {
 
 .lists {
     background: #Fff;
-    .list {
+    .ewm {
         display: flex;
         justify-content: center;
         dl {

@@ -1,7 +1,7 @@
 <template>
     <div class="box">
         <div class="top">
-            <p class="back">&lt; 返回</p>
+            <router-link tag='p' to='/xiaoshouzhongxin' class="back">&lt; 返回</router-link>
             <p class="topt">我的二维码</p>
             <img src="@/assets/wode1.jpg" alt="">
         </div>
@@ -21,9 +21,13 @@
 </template>
 
 <script>
+import xiaoshouzhongxin from "@/pages/xiaoshouzhongxin"
+
 export default {
     name: "erweima",
-    
+    components: {
+        xiaoshouzhongxin
+    }
 }
 </script>
 

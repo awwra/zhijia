@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import index from '@/pagesouye'
-import shangpinliebiao from '@/pagesangpinliebiao'
+import index from '@/pages/shouye'
+import shangpinliebiao from '@/pages/shangpinliebiao'
 import wode from '@/pages/wode'
-import bottom from '@/components/bottom'
 import gouwuche from '@/pages/gouwuche'
-import xiaoshouzhongxin from "@/pagesoshouzhongxin"
-import gerenxinxi from "@/pages/gerenxinxi"
+import xiaoshouzhongxin from "@/pages/xiaoshouzhongxin"
+import erweima from "@/pages/erweima"
+
 Vue.use(Router)
 
 export default new Router({
@@ -16,17 +16,12 @@ export default new Router({
       component: index
     },
     {
-      path: "/gerenxinxi",
-      name: 'gerenxinxi',
-      component: gerenxinxi
-    },
-    {
       path: "/gouwuche",
       name: 'gouwuche',
       component: gouwuche
     },
     {
-      path: "angpinliebiao",
+      path: "/shangpinliebiao",
       name: 'shangpinliebiao',
       component: shangpinliebiao
     },
@@ -36,14 +31,14 @@ export default new Router({
       component: wode
     },
     {
-      path: "/bottom",
-      name: 'bottom',
-      component: bottom
-    },
-    {
-      path: "oshouzhongxin",
+      path: "/xiaoshouzhongxin",
       name: 'xiaoshouzhongxin',
       component: xiaoshouzhongxin
+    },
+    {
+      path: "/erweima",
+      name: 'erweima',
+      component: erweima
     },
   ]
 })
