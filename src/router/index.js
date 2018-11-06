@@ -7,6 +7,7 @@ import gouwuche from '@/pages/gouwuche'
 import xiaoshouzhongxin from "@/pages/xiaoshouzhongxin"
 import shangpinxiangqing from "@/pages/shangpinxiangqing"
 import erweima from "@/pages/erweima"
+import gwc from '@/pages/gwc'
 
 Vue.use(Router)
 
@@ -45,6 +46,11 @@ export default new Router({
       path: "/shangpinxiangqing",
       name: 'shangpinxiangqing',
       component: shangpinxiangqing
+    },
+    {
+      path: "/gwc",
+      name: 'gwc',
+      component: gwc
     },
   ]
 })
