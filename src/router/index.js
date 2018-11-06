@@ -6,6 +6,8 @@ import wode from '@/pages/wode'
 import bottom from '@/components/bottom'
 import gouwuche from '@/pages/gouwuche'
 import xiaoshouzhongxin from "@/pages/xiaoshouzhongxin"
+import erweima from "@/pages/erweima"
+
 Vue.use(Router)
 
 export default new Router({
@@ -38,6 +40,11 @@ export default new Router({
       path: "/xiaoshouzhongxin",
       name: 'xiaoshouzhongxin',
       component: xiaoshouzhongxin
+    },
+    {
+      path: "/erweima",
+      name: 'erweima',
+      component: erweima
     },
   ]
 })
