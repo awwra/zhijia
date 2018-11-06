@@ -11,6 +11,12 @@
                 <dd>销售专属二维码</dd>
             </dl>
         </div>
+        <div class="botom">
+            <p>1、客户或微信好友通过扫描二维码就会关注门店的公众号，并且成为你的专属客户;</p>
+            <p>2、你每新增一位专属客户，就会获得+30的金币奖励</p>
+            <p>3、关注后的客户可在“我的客户”中显示</p>
+            <p>4、在门店邀请购买过产品的客户扫描该二维码，并成功提交客户购买信息，可帮助购买客户获得金币，购买金额满500元就赠送客户100个金币，以此类推</p>
+        </div>
     </div>
 </template>
 
@@ -47,6 +53,7 @@ export default {
 }
 
 .erwei{
+    margin-bottom: px2rem(250);
     dl{
         margin-top: px2rem(190);
         dt{
@@ -62,6 +69,16 @@ export default {
             margin-top: px2rem(55);
             font-size: px2rem(45);
         }
+    }
+}
+
+.botom{
+    width: 80%;
+    margin: 0 10%;
+    p{
+        line-height: px2rem(65);
+        color: #666;
+        margin-bottom: px2rem(70);
     }
 }
 </style>
