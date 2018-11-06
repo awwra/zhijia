@@ -5,6 +5,7 @@ import shangpinliebiao from '@/pages/shangpinliebiao'
 import wode from '@/pages/wode'
 import gouwuche from '@/pages/gouwuche'
 import xiaoshouzhongxin from "@/pages/xiaoshouzhongxin"
+import shangpinxiangqing from "@/pages/shangpinxiangqing"
 import erweima from "@/pages/erweima"
 
 Vue.use(Router)
@@ -39,6 +40,11 @@ export default new Router({
       path: "/erweima",
       name: 'erweima',
       component: erweima
+    },
+    {
+      path: "/shangpinxiangqing",
+      name: 'shangpinxiangqing',
+      component: shangpinxiangqing
     },
   ]
 })
