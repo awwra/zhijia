@@ -2,38 +2,28 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/pages/shouye'
 import shangpinliebiao from '@/pages/shangpinliebiao'
+import shangpinxiangqing from '@/pages/shangpinxiangqing'
+
 import wode from '@/pages/wode'
-import bottom from '@/components/bottom'
-import shangpinxiangqing from "@/pages/shangpinxiangqing"
 
 Vue.use(Router)
 
-
 export default new Router({
-  routes: [{
-      path: "/",
-      name: 'index',
-      component: index
+  routes: [
+    {
+      path:"/",
+      name:'index',
+      component:index
     },
     {
-      path: "/shangpinliebiao",
-      name: 'shangpinliebiao',
-      component: shangpinliebiao
+      path:"/shangpinliebiao",
+      name:'shangpinliebiao',
+      component:shangpinliebiao
     },
     {
-      path: "/wode",
-      name: 'wode',
-      component: wode
+      path:"/shangpinxiangqing",
+      name:'shangpinxiangqing',
+      component:shangpinxiangqing
     },
-    {
-      path: "/bottom",
-      name: 'bottom',
-      component: bottom
-    },
-    {
-      path: "/shangpinxiangqing",
-      name: 'shangpinxiangqing',
-      component: shangpinxiangqing
-    },
-  ]
+]
 })

@@ -7,7 +7,7 @@
     </div>
     <div class="myshow">
         <div class="stop">
-            <p>切换为销售</p>
+            <router-link tag='p' to='/xiaoshouzhongxin'>切换为销售</router-link>
             <p>金币规则</p>
         </div>
         <div class="myme">
@@ -80,15 +80,18 @@
         <h3>&gt;</h3>
       </div>
     </div>
+    <bottom></bottom>
 </div>
     
 </template>
 
 <script>
+import bottom from '@/components/bottom.vue'
+import xiaoshouzhongxin from '@/pages/xiaoshouzhongxin.vue'
 export default {
   name: "wode",
-  data: {
-    return: {}
+  components: {
+    bottom, xiaoshouzhongxin
   }
 };
 </script>
@@ -264,6 +267,7 @@ export default {
     height: px2rem(558);
     width: 94%;
     margin: auto auto;
+    margin-bottom: px2rem(200);
     div {
       display: flex;
       justify-content:space-between;

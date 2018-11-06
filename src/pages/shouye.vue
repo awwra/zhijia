@@ -179,28 +179,13 @@
         </dl>
       </div>
     </div>
-    <div class="bottom">
-      <dl>
-        <dt><img src="../assets/shouye-6.png" alt=""></dt>
-        <dd class="sy">首页</dd>
-      </dl>
-      <dl>
-        <dt><img src="../assets/shouye-7.png" alt=""></dt>
-        <dd>商品列表</dd>
-      </dl>
-      <dl>
-        <dt><img src="../assets/shouye-8.png" alt=""></dt>
-        <dd>购物车</dd>
-      </dl>
-      <dl>
-        <dt><img src="../assets/shouye-9.png" alt=""></dt>
-        <dd>我的</dd>
-      </dl>
-    </div>
+    <bottom></bottom>
   </div>
 </template>
 
 <script>
+import bottom from '@/components/bottom.vue'
+
 export default {
   name: "shouye",
   data() {
@@ -213,6 +198,9 @@ export default {
         }
       }
     };
+  },
+  components: {
+    bottom
   }
 };
 </script>
@@ -419,20 +407,22 @@ nav {
   .lb {
     width: 94%;
     margin-left: 3%;
+    border: px2rem(1) solid #ccc;
     margin-bottom: px2rem(60);
     dl {
       display: flex;
       height: px2rem(332);
       dt {
-        width: px2rem(390);
-        height: px2rem(390);
+        width: px2rem(332);
+        height: px2rem(332);
         img {
-          width: 100%;
+          width: px2rem(332);
+          height: px2rem(332);
         }
       }
       dd {
+        height: px2rem(332);
         padding-left: px2rem(66);
-        border: px2rem(1) solid #ccc;
         border-left: none;
         p {
           line-height: px2rem(75);
@@ -457,33 +447,4 @@ nav {
   }
 }
 
-.bottom {
-  height: px2rem(193);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: px2rem(2) solid #ccc;
-  background: #fff;
-  display: flex;
-  dl {
-    text-align: center;
-    flex: 1;
-    justify-content: center;
-    dt {
-      width: px2rem(110);
-      height: px2rem(90);
-      margin: px2rem(20) auto;
-      img {
-        width: 100%;
-      }
-    }
-    dd {
-      font-size: px2rem(36);
-      color: #666;
-    }
-    .sy {
-      color: #ff5a00;
-    }
-  }
-}
 </style>
