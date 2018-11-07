@@ -149,6 +149,7 @@ export default {
     background: #Fff;
     .ewm {
         display: flex;
+        width: 100%;
         justify-content: center;
         dl {
             height: px2rem(230);

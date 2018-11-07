@@ -10,6 +10,7 @@ import erweima from "@/pages/erweima"
 import shangpinxiangqing from "@/pages/shangpinxiangqing"
 import gwc from "@/pages/gwc"
 
+
 Vue.use(Router)
 
 export default new Router({
