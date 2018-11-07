@@ -57,6 +57,7 @@ export default {
 }
 
 .erwei{
+    background: #fff;
     margin-bottom: px2rem(250);
     dl{
         margin-top: px2rem(190);

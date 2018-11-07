@@ -9,6 +9,8 @@ import gerenxinxi from "@/pages/gerenxinxi"
 import erweima from "@/pages/erweima"
 import shangpinxiangqing from "@/pages/shangpinxiangqing"
 import gwc from "@/pages/gwc"
+import gerenzhongxin from "@/pages/gerenzhongxin"
+import shouhuodizhi from "@/pages/shouhuodizhi"
 
 Vue.use(Router)
 
@@ -17,6 +19,11 @@ export default new Router({
       path: "/",
       name: 'index',
       component: index
+    },
+    {
+      path: "/gerenzhongxin",
+      name: 'gerenzhongxin',
+      component: gerenzhongxin
     },
     {
       path: "/gerenxinxi",
@@ -58,5 +65,10 @@ export default new Router({
       name: 'gwc',
       component: gwc
     },
+    {
+      path: "/shouhuodizhi",
+      name: 'shouhuodizhi',
+      component: shouhuodizhi
+    }
   ]
 })

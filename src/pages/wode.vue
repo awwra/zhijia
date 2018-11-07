@@ -67,10 +67,10 @@
       </div>
     </div>
     <div class="map">
-      <div>
+      <router-link tag='div' to='/shouhuodizhi'>
         <p>收货地址</p>
         <h3>&gt;</h3>
-      </div>
+      </router-link>
       <router-link tag='div' to='/gwc'>
         <p>我的购物车（3）</p>
         <h3>&gt;</h3>
@@ -89,11 +89,13 @@
 import bottom from '@/components/bottom.vue'
 import xiaoshouzhongxin from '@/pages/xiaoshouzhongxin.vue'
 import gwc from "@/pages/gwc.vue"
+import shouhuodizhi from "@/pages/shouhuodizhi.vue"
+
 
 export default {
   name: "wode",
   components: {
-    bottom, xiaoshouzhongxin, gwc
+    bottom, xiaoshouzhongxin, gwc ,shouhuodizhi
   }
 };
 </script>
