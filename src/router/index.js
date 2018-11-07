@@ -9,7 +9,7 @@ import gerenxinxi from "@/pages/gerenxinxi"
 import erweima from "@/pages/erweima"
 import shangpinxiangqing from "@/pages/shangpinxiangqing"
 import gwc from "@/pages/gwc"
-
+import gerenzhongxin from "@/pages/gerenzhongxin"
 
 Vue.use(Router)
 
@@ -18,6 +18,11 @@ export default new Router({
       path: "/",
       name: 'index',
       component: index
+    },
+    {
+      path: "/gerenzhongxin",
+      name: 'gerenzhongxin',
+      component: gerenzhongxin
     },
     {
       path: "/gerenxinxi",

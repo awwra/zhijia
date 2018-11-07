@@ -78,6 +78,9 @@ header {
     }
 }
 .xinxi{
+    input{
+        background: #ffffff;
+    }
     margin-left: px2rem(80);
     font-size: px2rem(60);
     .tong{
@@ -130,7 +133,7 @@ header {
             input{
                 height: px2rem(120);
                 font-size: px2rem(60);
-                margin-left: px2rem(280);
+                margin-left: px2rem(260);
                 border: none;
             }
         }
