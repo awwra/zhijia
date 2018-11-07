@@ -11,8 +11,8 @@
             <img src="../assets/gouwuche.png">
             <p>很抱歉,暂无相关商品！</p>
             <div class="btn">
-                <button>现在就去</button>
-                <button>人人中心</button>
+                <router-link tag='button' to='/'>现在就去</router-link>
+                <button>个人中心</button>
             </div>
         </div>
         <bottom></bottom>
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-
+import index from "@/pages/shouye.vue"
 import bottom from "@/components/bottom.vue"
 export default {
     name: "gouwuche",

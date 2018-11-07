@@ -5,8 +5,10 @@ import shangpinliebiao from '@/pages/shangpinliebiao'
 import wode from '@/pages/wode'
 import gouwuche from '@/pages/gouwuche'
 import xiaoshouzhongxin from "@/pages/xiaoshouzhongxin"
-import shangpinxiangqing from "@/pages/shangpinxiangqing"
+import gerenxinxi from "@/pages/gerenxinxi"
 import erweima from "@/pages/erweima"
+import shangpinxiangqing from "@/pages/shangpinxiangqing"
+import gwc from "@/pages/gwc"
 
 Vue.use(Router)
 
@@ -15,6 +17,11 @@ export default new Router({
       path: "/",
       name: 'index',
       component: index
+    },
+    {
+      path: "/gerenxinxi",
+      name: 'gerenxinxi',
+      component: gerenxinxi
     },
     {
       path: "/gouwuche",
@@ -45,6 +52,11 @@ export default new Router({
       path: "/shangpinxiangqing",
       name: 'shangpinxiangqing',
       component: shangpinxiangqing
+    },
+    {
+      path: "/gwc",
+      name: 'gwc',
+      component: gwc
     },
   ]
 })
