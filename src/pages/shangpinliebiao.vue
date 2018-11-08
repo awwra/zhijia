@@ -25,7 +25,7 @@
             </ul>
         </div>
         <div class="main">
-          <div class="main1">
+          <router-link tag="div" to="/shangpinxiangqing" class="main1">
             <dl>
               <dt><img src="../assets/splb4.png" alt=""></dt>
               <dd>
@@ -33,8 +33,8 @@
                 <p>￥9208</p>
               </dd>
             </dl>
-          </div>
-          <div class="main2">
+          </router-link>
+          <router-link tag="div" to="/shangpinxiangqing" class="main2">
             <dl>
               <dt><img src="../assets/splb4.png" alt=""></dt>
               <dd>
@@ -42,8 +42,8 @@
                 <p>￥9208</p>
               </dd>
             </dl>
-          </div>
-          <div class="main1">
+          </router-link>
+          <router-link tag="div" to="/shangpinxiangqing" class="main1">
             <dl>
               <dt><img src="../assets/splb4.png" alt=""></dt>
               <dd>
@@ -51,8 +51,8 @@
                 <p>￥9208</p>
               </dd>
             </dl>
-          </div>
-          <div class="main2">
+          </router-link>
+          <router-link tag="div" to="/shangpinxiangqing" class="main2">
             <dl>
               <dt><img src="../assets/splb4.png" alt=""></dt>
               <dd>
@@ -60,7 +60,7 @@
                 <p>￥9208</p>
               </dd>
             </dl>
-          </div>
+          </router-link>
         </div>
   <bottom></bottom>
     </div>
@@ -68,10 +68,11 @@
 
 <script>
 import bottom from '@/components/bottom.vue'
+import shangpinxiangqing from "@/pages/shangpinxiangqing"
 export default {
   name: "shangpinliebiao",
   components:{
-    bottom
+    bottom, shangpinxiangqing
   }
 };
 </script>

@@ -5,10 +5,10 @@
         <img src="../assets/shouye-1.png" alt="">
       </figure>
       <input type="text" placeholder="输入商品名称">
-      <figure class="right">
+      <router-link tag="figure" to="/gerenxinxi" class="right" >
         <img src="../assets/shouye-3.png" alt="">
         <span></span>
-      </figure>
+      </router-link>
     </header>
     <nav class="tabs">
       <ul>
@@ -185,7 +185,7 @@
 
 <script>
 import bottom from '@/components/bottom.vue'
-
+import gerenxinxi from "@/pages/gerenxinxi"
 export default {
   name: "shouye",
   data() {
@@ -200,7 +200,7 @@ export default {
     };
   },
   components: {
-    bottom
+    bottom, gerenxinxi
   }
 };
 </script>

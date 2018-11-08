@@ -11,9 +11,9 @@
             <p>金币规则</p>
         </div>
         <div class="myme">
-            <div class="img">
+            <router-link tag="div" to="/gerenzhongxin" class="img">
                 <img src="@/assets/wode2.jpg" alt="">
-            </div>
+            </router-link>
             <div class="me">
                 <p>挥着辣条的小手手</p>
                 <h2>我的金币：2289</h2>
@@ -90,12 +90,13 @@ import bottom from '@/components/bottom.vue'
 import xiaoshouzhongxin from '@/pages/xiaoshouzhongxin.vue'
 import gwc from "@/pages/gwc.vue"
 import shouhuodizhi from "@/pages/shouhuodizhi.vue"
+import gerenzhongxin from "@/pages/gerenzhongxin.vue"
 
 
 export default {
   name: "wode",
   components: {
-    bottom, xiaoshouzhongxin, gwc ,shouhuodizhi
+    bottom, xiaoshouzhongxin, gwc ,shouhuodizhi, gerenzhongxin
   }
 };
 </script>

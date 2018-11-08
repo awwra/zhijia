@@ -1,9 +1,9 @@
 <template>
     <div class="big">
         <header>
-            <p>
+            <router-link tag="p" to="/wode">
                 <img src="../assets/fanhui.png">返回
-            </p>
+            </router-link>
             <h1>个人信息</h1>
             <img class="shezhi" src="../assets/wode1.jpg">
         </header>
@@ -20,8 +20,12 @@
 </template>
 
 <script>
+import wode from "@/pages/wode"
 export default {
-    name: "gerenzhongxin"
+    name: "gerenzhongxin",
+    components: {
+        wode
+    }
 }
 </script>
 

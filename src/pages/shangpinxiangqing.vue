@@ -2,7 +2,7 @@
     <div class="box">
          <div class="header">
             <ul>
-                <li>&lt;&nbsp;返回</li>
+                <router-link tag="li" to="/shangpinliebiao">&lt;&nbsp;返回</router-link>
                 <li>红米noto4</li>
                 <li><img src="../assets/splb1.png" alt=""></li>
             </ul>

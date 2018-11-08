@@ -1,9 +1,9 @@
 <template>
     <div class="big">
         <header>
-            <p>
+            <router-link tag="p" to="/">
                 <img src="../assets/fanhui.png">返回
-            </p>
+            </router-link>
             <h1>个人信息</h1>
             <img class="shezhi" src="../assets/wode1.jpg">
         </header>
@@ -38,6 +38,7 @@
 </template>
 
 <script>
+import index from "@/pages/shouye"
 export default {
     name: "gerenxinxi"
 }
